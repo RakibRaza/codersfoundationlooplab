@@ -1,0 +1,55 @@
+/* Fonts */
+
+/* Variables */
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+}
+/* Default CSS */
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: relative;
+}
+.checkbox-white {
+  color: #008ed6;
+  background-color: #fff;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+.checkbox-dark {
+  color: #fff;
+  background-color: #000;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+/* Header
+--------------------------------------- */
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background-color: rgba(41, 43, 44, .7);
+}
+/* Header End */
+
+/* Home Section
+------------------------------------------ */
+#home-section {
+  background: url(../images/home.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, .4);
+}
+.home-container {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.card-overlay {
+  background: rgba(13, 110, 253, .7);
+}
+/* Home Section End */
